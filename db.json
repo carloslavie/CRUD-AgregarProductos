@@ -24,6 +24,11 @@
       "nombre": "aceite",
       "precio": 500,
       "id": 8
+    },
+    {
+      "nombre": "chocolates",
+      "precio": 400,
+      "id": 9
     }
   ]
 }

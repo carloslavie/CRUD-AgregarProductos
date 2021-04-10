@@ -8,12 +8,13 @@ import { obtenerProductosAction } from '../actions/productoActions';
 const Productos = () => {
 
     const dispatch = useDispatch();
-
+    
     useEffect(() => {
         
         //Consultar la api
         const cargarProductos = () => dispatch( obtenerProductosAction() );
         cargarProductos();
+        //eslint-disable-next-line
     }, [])
 
     //Obtener State
